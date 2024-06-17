@@ -115,10 +115,11 @@
     --style-border-dashed: 1px dashed var(--heo-theme-op);
     --style-border-forever: 2px solid var(--heo-lighttext);
 }
+
 @media screen and (max-width: 768px) {
     :root {
-        --style-border: 0px solid var(--heo-card-border);
-        --style-border-hover: 0px solid var(--heo-main);
+        --style-border: 1px solid var(--heo-none);
+        --style-border-hover: 1px solid var(--heo-none)
     }
 }
 
@@ -12363,7 +12364,7 @@ img.tk-avatar-img {
 /* 昵称 */
 .tk-nick {
     font-size: 1rem !important;
-    line-height: 32px;
+    line-height: 29px;
 }
 
 /* 填写项标题 */
@@ -12422,7 +12423,7 @@ img.tk-avatar-img {
     color: var(--heo-fontcolor) !important;
     border-radius: 12px !important;
     min-height: 100px !important;
-    padding: 16px 16px 40px 16px !important;
+    padding: 16px 16px 85px 16px !important;
     border: var(--style-border-always) !important;
     box-shadow: none !important;
 }
@@ -12764,8 +12765,8 @@ button.el-button.tk-cancel.el-button--default.el-button--small {
 /* 评论时间 */
 .tk-time {
     color: var(--heo-secondtext) !important;
-    font-size: 0.8rem;
-    margin-left: 0.5rem;
+    font-size: 0.7rem;
+    margin-left: 0.4rem;
 }
 
 /* 评论之间的间距 */
